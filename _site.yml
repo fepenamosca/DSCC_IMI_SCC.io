@@ -1,0 +1,21 @@
+name: "Assessing the ability of differential somatic cell count to identify intramammary infections and high somatic cell count at dry-off and in early postpartum"
+header-includes: 
+  \usepackage{graphicx}
+  \usepackage{float}
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About us"
+      menu:
+          - text: "Caixeta Lab"
+            href: https://sites.google.com/umn.edu/caixetalab/
+    - text: "Code and output"
+      href: DSCC_IMI_SCC.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<penam003@umn.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/fepenamosca/
+output:  
+   html_document:
+    theme: flatly
